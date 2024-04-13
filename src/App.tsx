@@ -41,7 +41,7 @@ export default function App():JSX.Element {
             <TextInput
               style={styles.input}
               maxLength={14}
-              clearButtonMode='always'
+              clearButtonMode='always'  //for ios
               onChangeText={setInputValue}
               keyboardType='number-pad'
               placeholder='Enter Amount'
